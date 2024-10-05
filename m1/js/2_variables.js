@@ -51,7 +51,7 @@ console.log("Tiempo de espera " + SEGUNDOS + " segundos.");
 // string
 //      Almacena datos de texto.
 let miNombre = "María";
-let miApellido = "Gómez";
+let miApellido = 'Gómez';
 
 // number
 //      Almacena datos numéricos, ya sean enteros o decimales.
@@ -80,6 +80,7 @@ let libro = {
 let numeros = [1, 2, 3, 4, 5];
 let colores = ["rojo", "azul", "verde"];
 
+
 // NaN
 //      Representa un valor numérico inválido, como el resultado de una operación matemática no válida.
 let resultado = 10 / "texto";
@@ -88,12 +89,14 @@ let operacionInvalida = NaN;
 // undefined
 //      Representa una variable que ha sido declarada pero no inicializada.
 let variablesinValor;
+console.log(variablesinValor); // Esto mostrará "undefined" en la consola
 let valorNoAsignado = undefined;
 
 // null
 //      Representa la ausencia de un valor o un objeto nulo.
 let objetoNulo = null;
 let valorNulo = null;
+
 
 // typeof
 //      Permite conocer el tipo de dato de una variable.
